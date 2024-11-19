@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'Langrocks provides a collection of tools for LLMs including computer access, web browser, and code runner.',
   favicon: 'img/favicon.ico',
 
-  url: 'https://langrocks.com',
+  url: 'https://resplendent-daifuku-294e76.netlify.app',
   baseUrl: '/',
 
   // GitHub pages deployment config.
@@ -28,16 +28,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -92,10 +82,6 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/langrocks/langrocks',
