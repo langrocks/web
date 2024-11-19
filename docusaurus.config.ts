@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'Langrocks provides a collection of tools for LLMs including computer access, web browser, and code runner.',
   favicon: 'img/favicon.ico',
 
-  url: 'https://resplendent-daifuku-294e76.netlify.app',
+  url: 'https://langrocks.com',
   baseUrl: '/',
 
   // GitHub pages deployment config.
